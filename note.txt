@@ -1,0 +1,118 @@
+=> Create Virtual Environment
+
+
+#Linux/MacOs
+    python3 -m venv myenv                // you can change anyname whatever you want "myenv"
+
+
+# Window
+    python -m venv myenv  
+
+
+=> For Activate
+
+# Linux/MacOs
+    source myenv/bin/activate                  // activate
+
+# Window
+    .\myenv\Scripts\activate                  // activate
+
+    pip3 list
+
+
+# deactivate
+    (myenv) C:\Users\Dell\Documents\class\pythonbatch1\part3 deactivate
+    C:\Users\Dell\Documents\class\pythonbatch1\part3
+
+
+pip3 list
+
+
+# => Install pillow
+pip3 install pillow
+ 
+
+
+-------------------------------------------------------------------------
+
+=> mysql module
+
+    https://pypi.org/project/mysql-connector-python/
+
+    pip3 install mysql-connector-python
+
+    pip3 list
+-------------------------------------------------------------------------
+
+=> python dotenv ( 1.1.1)
+
+    (i) Install
+    https://pypi.org/project/python-dotenv/
+
+    pip3 install python-dotenv
+
+    pip3 list
+
+    (ii) Create
+    create .env file
+
+    (iii) Import
+    load_dotenv
+
+    from dotenv import load_dotenv
+    import os
+-------------------------------------------------------------------------
+
+=> Telegram Bot (22.5)
+
+    https://python-telegram-bot.org/
+
+    pip3 install python-telegram-bot
+    pip3 list
+
+-------------------------------------------------------------------------
+
+=> Get Telegram Token Key
+    (i) Google or Telegram app, find @BotFather
+        https://telegram.me/BotFather
+
+    (ii) Create a new bot 
+        click start or send/start   
+        Send/newbot
+            BotFather will ask for :
+                Bot name for your bot = pybotapp
+                Bot username = Must end with bot = pybotappbot
+
+    (iii) Copy your API Token    
+        Done! Congratulations on your new bot. You will find it at t.me/pybotappbot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+
+Use this token to access the HTTP API:
+7932698271:AAG8Ymv6Qb0qpMiOMLCqV7PlW9Tpc7emFuI
+Keep your token secure and store it safely, it can be used by anyone to control your bot.    
+
+-------------------------------------------------------------------------
+
+=> Mongodb Driver (v )
+
+    https://pypi.org/project/pymongo/
+
+    pip install pymongo
+
+    pip3 list
+
+----------------------------------------------------------------
+
+Deploy to server (render.com)
+
+    (i) Prepare your project
+        method 1 (manually)
+            create requirements.txt
+            activate > pip3 list > copy all dependencies and paste
+
+
+        method 2 (auto)
+            we don't need to create requirements.txt
+            activate > pip freeze > requirements.txt
+
+    (ii) Upload to github      
+----------------------------------------------------------------            
